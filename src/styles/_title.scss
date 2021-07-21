@@ -1,0 +1,56 @@
+
+.title{
+  align-self: start;
+  justify-self: start;
+  margin: 0 auto 5px;
+    // font-family: 'Roboto';
+    // font-family: "Raleway";
+    font-family: 'Montserrat';
+    text-align: start;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.03rem;
+  color:$primary-color;
+  }
+
+  .subtitle{
+    margin-left: 20px;
+    font-family: 'Roboto';
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: 0.03rem;
+    font-size: 10px;
+    color:$text-second-clr;
+    justify-self: start;
+    text-align: left;
+    
+  }
+
+  @media screen and(min-width:$mobile) {
+    .title{
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+    .subtitle{
+      font-size: 12px;
+    }
+  }
+
+  @media screen and(min-width:$tablet) {
+    .title{
+      margin: 0 auto 20px;
+      font-size: 16px;
+    }
+    .subtitle{
+      font-size: 14px;
+    }
+  }
+  @media screen and(min-width:$desktop) {
+    .title{
+      font-size: 20px;
+    }
+     .subtitle{
+      font-size: 16px;
+    }
+  }

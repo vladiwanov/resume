@@ -1,0 +1,8 @@
+@import 'styles/main.scss';
+// @import './hardSkillsStyles/skills';
+@import './hardSkillsStyles/technologies';
+
+.hardSkills{
+  display: block;
+  border-bottom: $secondary-color 1px solid;
+}

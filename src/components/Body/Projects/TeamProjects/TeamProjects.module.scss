@@ -1,0 +1,21 @@
+@import 'styles/main.scss';
+.teamProjects{
+  margin-top: 20px;
+  border-bottom: $secondary-color 1px solid;
+}
+
+@media screen and (min-width:$mobile) {
+  .teamProjects{
+grid-gap: 10px $grid-row-mobile;
+  }
+}
+@media screen and (min-width:$tablet) {
+  .teamProjects{
+grid-gap: 10px $grid-row-tablet;
+  }
+}
+@media screen and (min-width:$desktop) {
+  .teamProjects{
+grid-gap: 10px $grid-row-desktop;
+  }
+}

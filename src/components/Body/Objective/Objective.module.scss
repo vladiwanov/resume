@@ -1,0 +1,13 @@
+@import 'styles/main.scss';
+
+.objective{
+  border-bottom: $secondary-color 1px solid;
+}
+.objectiveTitle{
+align-self: start;
+}
+
+.objectiveItem{
+  justify-self: center;
+  text-align: center;
+}

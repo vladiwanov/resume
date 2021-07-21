@@ -1,0 +1,16 @@
+[
+  {
+  "Project":"TODO-dashboard web application",
+  "link":"https://project-go-it.netlify.app/",
+  "aboutProject":" TODO-dashboard web application wit creating, correcting and deleting todos",
+  "usedTechnologies":["SASS", "React-routing", "Redux", "Git"],
+  "id":"1"
+},
+{
+  "Project":"Bardershop landig-page",
+  "link":"https://vladiwanov.github.io/Project-BarberShop-V2/",
+  "aboutProject":"Html coding landing-page for barbershop with support desktop and mobile versions",
+  "usedTechnologies":["SASS", "parcel", "Git"],
+  "id":"2"
+}
+]

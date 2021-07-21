@@ -1,0 +1,43 @@
+.item{
+  font-size: 12px;
+  justify-content: start;
+  color: $secondary-color;
+}
+
+.content{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 10px 20px;
+  align-items: baseline;
+  justify-content: start;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width:$mobile){
+  .item{
+    font-size: 14px;
+  }
+   .content{
+    grid-gap: 10px $grid-row-mobile;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width:$tablet){
+  .item{
+    font-size: 16px;
+  }
+  .content{
+    grid-gap: 10px $grid-row-tablet;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width:$desktop){
+  .item{
+    font-size: 18px;
+  }
+  .content{
+    grid-gap: 10px $grid-row-desktop;
+  }
+}

@@ -1,0 +1,69 @@
+@import 'styles/main.scss';
+
+.section{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 100vw;
+  height: 100%;
+  background-color: cadetblue;
+}
+
+.container{
+  box-sizing: border-box;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  display: block;
+  width: 100%;
+  // width: auto;
+height: 150px;
+  background-color:chocolate;
+}
+
+.title{
+  font-family: 'Montserrat';
+  // font-family: 'Roboto';
+  // font-family: 'Raleway';
+  // font-weight: normal;
+  // font-size: 25px;
+  // color: red;
+}
+
+@media screen and (min-width:$mobile) {
+  .container{
+    // min-width: $mobile;
+    // max-width: $tablet;
+// width: $mobile;
+    background-color: darkorange;
+  }
+}
+@media screen and (min-width:$tablet) {
+  .container{
+    // min-width: $tablet;
+    // max-width: $desktop;
+    // width: $tablet;
+    background-color: crimson;
+  }
+  .title{
+    font-family: "Raleway";
+    color: deepskyblue;
+
+  }
+}
+@media screen and (min-width:$desktop) {
+  .container{
+    // min-width: none;
+    // max-width: 100%;
+    // width: $desktop;
+    // max-width: $desktop;
+    background-color: darkgreen;
+  }
+  .title{
+  // color: red;
+  // font-family: 'Montserrat';
+  font-family: 'Roboto';
+
+  }
+}
