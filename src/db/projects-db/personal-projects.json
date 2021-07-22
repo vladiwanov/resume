@@ -1,6 +1,6 @@
 [{
   "Project":"My resume",
-  "link":"https://vladiwanov.netlify.app",
+  "link":"https://vladiwanov.github.io/resume/",
   "aboutProject":"my IT resume in web",
   "usedTechnologies":["React.js","SASS","Grid"],
   "id":"1"
