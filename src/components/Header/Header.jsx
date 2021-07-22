@@ -13,15 +13,15 @@ export default function Header() {
       </div>
       <div className={` ${s.personality} `}>
         <section className={`${s.content}`}>
-          <div className={s.contacts}>
+          {/* <div className={s.contacts}>
             <MdPhone className={s.icons} />
             <a className={s.link} href="tel:+380663832747">
               mob. +380 66 383 27 47
             </a>
-          </div>
+          </div> */}
           <div className={s.contacts}>
             <MdMail className={s.icons} />
-            <a className={s.link} href="mailto: vl.i@icloud,com">
+            <a className={s.link} href="mailto: vl.i@icloud.com">
               vl.i@icloud.com
             </a>
           </div>
