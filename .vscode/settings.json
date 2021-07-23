@@ -1,4 +1,5 @@
 {
-  "editor.fontFamily": "Space Mono for Powerline,   Fira Code, Ubuntu Mono derivative Powerline"
+  "editor.fontFamily": "Space Mono for Powerline,   Fira Code, Ubuntu Mono derivative Powerline",
+  "files.autoSave": "onFocusChange"
   // "editor.fontFamily": "Space Mono for Powerline,   Fira Code, Ubuntu Mono derivative Powerline"
 }
