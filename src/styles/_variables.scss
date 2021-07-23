@@ -1,22 +1,9 @@
-$primary-text-color: #757575;
-$text-title-color: #212121;
-// $accent-color: #2196f3;
-// $background-color: #ffffff;
-// $second-bgc: #f5f4fa;
+//colors
 $text-second-clr: #a0a0a0;
-$footer-bgc: #2f303a;
-$bgc-button-color: #2196f3;
 $text-header-color: #ffffff;
 $icons-primary-color: #afb1b8;
-// $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-// $time-amount: 250ms;
-// $backdrop-bgc: rgba(0, 0, 0, 0.2);
-
-$background-color: #fdfdfd;
 $primary-color:#212121;
 $secondary-color:#636363;
-$accent-color: #0077b5;
-
 
 //grid
 $grid-row-mobile:30px;
@@ -29,24 +16,14 @@ $tablet:768px;
 $desktop:1200px;
 
 
-// $background-color: #ffffff; //. основно цвет фона
-// $second-bgc: #f7f7f7; //. цвет фона для секции team (наши мастера)
-// $footer-bgc: #191c26; //. фон  футтера
+/* // $background-color: #ffffff; / #fdfdfd;
+// $second-bgc: #f7f7f7; / #f5f4fa; / #191c26; / #2f303a;
+// $backdrop-bgc: rgba(25, 28, 38, 0.2); / rgba(0, 0, 0, 0.2);
+// $accent-color: #ff6c00; /  #2196f3; / #0077b5;
+// $primary-text-color: #555555; / #757575;
+// $text-title-color: #303030;  /  #212121;
+// $bgc-button-color: #2196f3; 
+// $icons-primary-color: #afb1b8; 
+// $timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+// $time-amount: 250ms;  */
 
-// $primary-text-color: #555555; //. цвет осовного текста (параграфов)
-// $text-title-color: #303030; //.  цвет заголовков
-// $accent-color: #ff6c00; //. цвет ховера (фокуса)
-// $backdrop-bgc: rgba(25, 28, 38, 0.2); //. цвет оверлея для слайдерав хедере
-
-// $bgc-button-color: #2196f3; // . цвет кнопок подписки
-// $text-button-color: #ffffff; //. цвет текста кнопок подписки
-
-// $icons-primary-color: #afb1b8; //. Цвет иконок
-
-// $timing-function: cubic-bezier(0.4, 0, 0.2, 1); //. функция анимации
-// $time-amount: 250ms; //. время анимации
-
-// // breakpoints
-// $mobile: 480px; //. точка перелома для мобильных устройств
-// $tablet: 768px; //. точка перелома для планшетов
-// $desktop: 1280px; //. точка перелома для десктопов
