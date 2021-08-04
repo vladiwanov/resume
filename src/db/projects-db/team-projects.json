@@ -7,10 +7,10 @@
   "id":"1"
 },
 {
-  "Project":"Bardershop landig-page",
+  "Project":"Barbershop landing-page",
   "link":"https://vladiwanov.github.io/Project-BarberShop-V2/",
   "aboutProject":"Html coding landing-page for barbershop with support desktop and mobile versions",
-  "usedTechnologies":["SASS", "parcel", "Git"],
+  "usedTechnologies":["SASS", "Parcel", "Git"],
   "id":"2"
 }
 ]
