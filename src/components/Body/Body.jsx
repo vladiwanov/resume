@@ -1,5 +1,5 @@
 import React from 'react';
-import Objective from './Objective';
+import Summary from './Summary';
 import HardSkills from './HardSkills';
 import Projects from './Projects';
 import WorkingExperience from './WorkingExperience';
@@ -10,7 +10,7 @@ export default function Body (){
   return (
     <section >
       <div >
-        <Objective />
+        <Summary />
         <HardSkills />
         <Projects />
         <WorkingExperience />
