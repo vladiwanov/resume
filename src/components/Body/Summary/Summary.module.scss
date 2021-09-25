@@ -4,10 +4,12 @@
   border-bottom: $secondary-color 1px solid;
 }
 .objectiveTitle{
-align-self: start;
+
+margin: 0;
+margin-bottom: 20px;
 }
 
 .objectiveItem{
-  justify-self: center;
-  text-align: center;
+  justify-self: start;
+  text-align: start;
 }
