@@ -9,7 +9,7 @@ export default function WorkingExperience() {
       <div className={s.content}>
         <div>
           <h3 className={s.subtitle}>MoGroup</h3>
-          <p className={s.subtitle}>2017 - 2020</p>
+          <p className={s.subtitle}>2017 - 09.2021</p>
           <p className={s.subtitle}>Project manager</p>
         </div>
         <ul className={s.list}>

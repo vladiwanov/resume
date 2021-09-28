@@ -18,7 +18,7 @@ function App() {
       <section className={'section'}>
         <div className={'container'}>
           <Body />
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </section>
     </>
