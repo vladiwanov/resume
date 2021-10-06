@@ -26,7 +26,6 @@ export default function Project({ content }) {
             </div>
             <div className={s.content}>
               <h3 className={s.subtitle}>used technologies:</h3>
-              {console.log(Object.values(item)[3])}
               <Content content={Object.values(item)[3]} />
             </div>
           </div>
