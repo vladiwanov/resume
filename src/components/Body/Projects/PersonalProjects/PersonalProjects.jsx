@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../Project";
 import s from './PersonalProjects.module.scss';
-import personalProjects from 'db/projects-db/personal-projects.json'
+import personalProjects from 'db/projects-db/personal-projects.js'
 
 export default function PersonalProjects() {
   return (

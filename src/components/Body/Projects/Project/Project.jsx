@@ -15,7 +15,7 @@ export default function Project({ content }) {
           <div className={s.projectContent}>
             <div className={s.content}>
               <h3 className={s.subtitle}>{Object.keys(item)[1]}:</h3>
-              <a className={`${s.item} ${s.link}`} href={Object.values(item)[1]}>
+              <a className={`${s.item} ${s.link}`} href={Object.values(item)[1]} target="_blank" rel="noreferrer">
                 {Object.values(item)[1]}
               </a>
             </div>

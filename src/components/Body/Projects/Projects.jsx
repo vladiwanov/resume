@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <>
       <TeamProjects />
-      {/* <PersonalProjects /> */}
+      <PersonalProjects />
     </>
   );
 }
