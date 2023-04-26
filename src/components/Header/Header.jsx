@@ -1,7 +1,5 @@
 import React from 'react';
 import s from './Header.module.scss';
-import { MdPhone, MdMail } from 'react-icons/md';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import myPhoto from '../../images/vladiwanov.png';
 
 export default function Header() {
@@ -12,21 +10,12 @@ export default function Header() {
       </div>
       <div className={` ${s.personality} `}>
         <section className={`${s.content}`}>
-          {/* <div className={s.contacts}>
-            <MdPhone className={s.icons} />
-            <a className={s.link} href="tel:+380663832747">
-              mob. +380 66 383 27 47
-            </a>
-          </div> */}
           <div className={s.contacts}>
-            {/* <MdMail className={s.icons} /> */}
             <a className={s.link} href="mailto: vl.i@icloud.com">
               vl.i@icloud.com
             </a>
           </div>
           <div className={s.contacts}>
-            {/* <AiFillLinkedin className={s.icons} fill="#0077b5" /> */}
-            {/* <AiFillLinkedin className={s.icons} fill="#204098"/> */}
             <a
               className={`${s.in} ${s.link}`}
               href="https://www.linkedin.com/in/volodymyr-ivanov-94a4638a/"
@@ -35,7 +24,6 @@ export default function Header() {
             </a>
           </div>
           <div className={s.contacts}>
-            {/* <AiFillGithub className={s.icons} /> */}
             <a className={s.link} href="https://github.com/vladiwanov">
               https://github.com/vladiwanov
             </a>
@@ -44,7 +32,6 @@ export default function Header() {
 
         </section>
         <section className={s.position}>
-          {/* <h3 className={`${s.subtitle} ${s.headerSunbtitle}`}>Position</h3> */}
           <h2 className={s.positionContent}>Full Stack Developer</h2>
         </section>
         <section className={s.photo}>
