@@ -2,17 +2,16 @@ import React from 'react';
 import s from './Content.module.scss';
 
 const Content = ({ content }) => (
-    <ul className={`${s.list} ${s.item}`}>
-      {content.map(item =>
-        typeof item === 'object' ? (
-          <ContentForObjects item={item} />
-        ) : (
-          <ContentForItems item={item} />
-        ),
-      )}
-    </ul>
-  );
-
+  <ul className={`${s.list} ${s.item}`}>
+    {content.map((item, i) =>
+      typeof item === 'object' ? (
+        <ContentForObjects key={i} item={item} />
+      ) : (
+        <ContentForItems key={i} item={item} />
+      ),
+    )}
+  </ul>
+);
 
 const ContentForItems = ({ item }) => (
   <li className={s.listItem} key={item.id || item}>

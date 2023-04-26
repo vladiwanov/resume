@@ -19,8 +19,8 @@
     "api-server": "json-server --port 7070 --delay 500 --watch db.json",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": " sudo gh-pages -d build",
-    "deployNF": " sudo netlify deploy -p"
+    "deployGH": " sudo gh-pages -d build",
+    "deploy": " sudo netlify deploy -p"
   },
   "eslintConfig": {
     "extends": [

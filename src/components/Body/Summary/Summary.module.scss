@@ -13,5 +13,25 @@ margin-bottom: 20px;
   justify-self: start;
   text-align: start;
   margin-bottom: 20px;
-line-height: 2rem;
+line-height: 1rem;
 }
+
+@media screen  and (min-width:$mobile){
+  .objectiveItem {
+line-height: 1.2rem;
+  }
+}
+
+@media screen and (min-width:$tablet) {
+  .objectiveItem {
+    line-height: 1.6rem;
+  }
+}
+
+@media screen and (min-width:$desktop) {
+  .objectiveItem {
+    line-height: 2rem;
+  }
+}
+
+
