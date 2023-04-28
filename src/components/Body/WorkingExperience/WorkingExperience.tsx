@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './WorkingExperience.module.scss';
-import workex from '../../../db/workex.json'
+import workex from '../../../db/workex.json';
 
 export default function WorkingExperience() {
   return (
@@ -13,8 +13,8 @@ export default function WorkingExperience() {
           <p className={s.subtitle}>Project manager</p>
         </div>
         <ul className={s.list}>
-          {workex.map(text => (
-            <li key={text} className={s.item}>
+          {workex.map((text, i) => (
+            <li key={i} className={s.item}>
               {text}
             </li>
           ))}

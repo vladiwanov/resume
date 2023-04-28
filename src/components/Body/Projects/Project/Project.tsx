@@ -2,20 +2,39 @@ import React from 'react';
 import s from './Project.module.scss';
 import Content from 'components/Body/Content';
 
-export default function Project({ content }) {
+type Prop = {
+  Project: string;
+  link: string;
+  aboutProject: string;
+  usedTechnologies: string[];
+  id: string;
+};
+interface Props {
+  content: Prop[];
+}
+
+export default function Project({ content }: Props) {
   return (
     <ul className={s.list}>
       {content.map(item => (
         <li key={item.id}>
           <div className={s.content}>
             {/* ✅  вариант вывода данных через неявное задание ... */}
-            <h3 className={`${s.subtitle} ${s.projectTitle}`}>{Object.keys(item)[0]}:</h3>
+            <h3 className={`${s.subtitle} ${s.projectTitle}`}>
+              {Object.keys(item)[0]}:
+            </h3>
             <p className={s.item}>{Object.values(item)[0]}</p>
           </div>
           <div className={s.projectContent}>
             <div className={s.content}>
               <h3 className={s.subtitle}>{Object.keys(item)[1]}:</h3>
-              <a className={`${s.item} ${s.link}`} href={Object.values(item)[1]} target="_blank" rel="noreferrer">
+              <a
+                className={`${s.item} ${s.link}`}
+                // href={Object.values(item)[1]}
+                href={item.link}
+                target="_blank"
+                rel="noreferrer"
+              >
                 {Object.values(item)[1]}
               </a>
             </div>
@@ -26,7 +45,7 @@ export default function Project({ content }) {
             </div>
             <div className={s.content}>
               <h3 className={s.subtitle}>used technologies:</h3>
-              <Content content={Object.values(item)[3]} />
+              <Content content={item.usedTechnologies} />
             </div>
           </div>
         </li>

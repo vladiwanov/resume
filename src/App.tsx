@@ -8,7 +8,7 @@ function App() {
     backgroundColor: '#636363',
   };
   return (
-    <>
+    <div>
       <section style={headerStyle} className={`section ${'header'}`}>
         <div className={`container`}>
           {/* <Test /> */}
@@ -18,10 +18,10 @@ function App() {
       <section className={'section'}>
         <div className={'container'}>
           <Body />
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </section>
-    </>
+    </div>
   );
 }
 export default App;

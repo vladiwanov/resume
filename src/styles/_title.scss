@@ -27,7 +27,7 @@
     
   }
 
-  @media screen and(min-width:$mobile) {
+  @media screen and (min-width:$mobile) {
     .title{
       font-size: 12px;
       margin-bottom: 20px;
@@ -37,7 +37,7 @@
     }
   }
 
-  @media screen and(min-width:$tablet) {
+  @media screen and (min-width:$tablet) {
     .title{
       margin: 0 auto 20px;
       font-size: 16px;
@@ -46,7 +46,7 @@
       font-size: 14px;
     }
   }
-  @media screen and(min-width:$desktop) {
+  @media screen and (min-width:$desktop) {
     .title{
       font-size: 20px;
     }

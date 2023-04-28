@@ -2,14 +2,14 @@
   display: block;
   padding: 5px;
 
-@media screen and(min-width:$mobile) {
+@media screen and (min-width:$mobile) {
 }
-@media screen and(min-width:$tablet) {
+@media screen and (min-width:$tablet) {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-@media screen and(min-width:$desktop) {
+@media screen and (min-width:$desktop) {
   padding: 20px 0;
 }
 }
