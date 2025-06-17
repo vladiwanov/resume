@@ -1,18 +1,19 @@
 import React from 'react';
 import s from './Header.module.scss';
 import myPhoto from '../../images/vladiwanov.png';
+import contacts from '../../db/contacts.json'
 
 export default function Header() {
   return (
     <header className={`${s.header}`}>
       <div>
-        <h1 className={`${s.title} ${s.headerTitle}`}>Volodymyr Ivanov</h1>
+        <h1 className={`${s.title} ${s.headerTitle}`}>{contacts.title}</h1>
       </div>
       <div className={` ${s.personality} `}>
         <section className={`${s.content}`}>
           <div className={s.contacts}>
-            <a className={s.link} href="mailto: vl.i@icloud.com">
-              vl.i@icloud.com
+            <a className={s.link} href={`mailto:${contacts.email}`}>
+              {contacts.email}
             </a>
           </div>
           <div className={s.contacts}>
@@ -20,9 +21,9 @@ export default function Header() {
               className={`${s.in} ${s.link}`}
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/volodymyr-ivanov-94a4638a/"
+              href={contacts.networks}
             >
-              https://www.linkedin.com/in/ volodymyr-ivanov
+             linkedIn: {contacts.title}
             </a>
           </div>
           <div className={s.contacts}>
@@ -30,9 +31,9 @@ export default function Header() {
               className={s.link}
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/vladiwanov"
+              href={contacts.github}
             >
-              https://github.com/vladiwanov
+              {contacts.github}
             </a>
           </div>
           <b className={`${s.subtitle} ${s.headerSunbtitle}`}>Ukraine, Kyiv</b>

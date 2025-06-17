@@ -1,5 +1,6 @@
 {
-  "editor.fontFamily": "Space Mono for Powerline",
+  // "editor.fontFamily": "Space Mono for Powerline",
+  "editor.fontFamily": "Fira Code",
   "editor.fontSize": 13,
   "files.autoSave": "onFocusChange"
 }
