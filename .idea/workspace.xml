@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7860539-dc5f-4d49-91d8-ee9531c4f0d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/db/contatctsIV.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/contacts.json" beforeDir="false" />
-    </list>
+    <list default="true" id="b7860539-dc5f-4d49-91d8-ee9531c4f0d4" name="Changes" comment="added  addr and foto to contacts.js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,11 +90,24 @@
       <updated>1682680585020</updated>
       <workItem from="1682680588571" duration="1670000" />
       <workItem from="1750237229776" duration="1229000" />
-      <workItem from="1750243021886" duration="512000" />
+      <workItem from="1750243021886" duration="827000" />
     </task>
+    <task id="LOCAL-00001" summary="added  addr and foto to contacts.js">
+      <option name="closed" value="true" />
+      <created>1750243814417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750243814418</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added  addr and foto to contacts.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="added  addr and foto to contacts.js" />
   </component>
 </project>
