@@ -5,39 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7860539-dc5f-4d49-91d8-ee9531c4f0d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/resume.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/media/vladiwanov.4a4993e53eab66c8ea5f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-nf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/Content/Content.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/Content/Content.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/Content/Content.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/Other/SoftSkills/SoftSkills.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/Projects/Project/Project.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Body/Projects/TeamProjects/TeamProjects.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/headerStyles/_contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/headerStyles/_contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/headerStyles/_personality.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/headerStyles/_personality.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/headerStyles/_photo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/headerStyles/_photo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db/contatctsIV.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/contacts.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +18,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vladiwanov&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vladiwanov/resume.git&quot;,
+    &quot;accountId&quot;: &quot;27a4247a-eb27-4200-a834-2df990a18f72&quot;
+  }
+}</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="GK7sKHmh" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2P3KzCLg3ZH3iEjzbwkyg0bfGV5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,15 +48,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Volumes/DATA/DOCS/SoftDev/DevLearning/typeScript/tsres",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/VIDATA/DOCS/Directions/SoftDev/rsm/src/db",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "prettierjs.PrettierConfiguration.Package": "/Volumes/DATA/DOCS/SoftDev/DevLearning/typeScript/tsres/node_modules/prettier",
-    "ts.external.directory.path": "/Volumes/DATA/DOCS/SoftDev/DevLearning/typeScript/tsres/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "terminal",
+    "ts.external.directory.path": "/Volumes/VIDATA/DOCS/Directions/SoftDev/rsm/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,6 +72,19 @@
       </map>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/db" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,6 +94,8 @@
       <option name="presentableId" value="Default" />
       <updated>1682680585020</updated>
       <workItem from="1682680588571" duration="1670000" />
+      <workItem from="1750237229776" duration="1229000" />
+      <workItem from="1750243021886" duration="512000" />
     </task>
     <servers />
   </component>

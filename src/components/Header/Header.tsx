@@ -1,9 +1,10 @@
 import React from 'react';
 import s from './Header.module.scss';
-import myPhoto from '../../images/vladiwanov.png';
-import contacts from '../../db/contacts.json'
+// import myPhoto from '../../images/vladiwanov.png';
+import contacts from '../../db/contatctsIV'
 
 export default function Header() {
+  const myFoto = contacts.fotoLink
   return (
     <header className={`${s.header}`}>
       <div>
@@ -36,13 +37,13 @@ export default function Header() {
               {contacts.github}
             </a>
           </div>
-          <b className={`${s.subtitle} ${s.headerSunbtitle}`}>Ukraine, Kyiv</b>
+          <b className={`${s.subtitle} ${s.headerSunbtitle}`}>{contacts.addr}</b>
         </section>
         <section className={s.position}>
           <h2 className={s.positionContent}>Full Stack Developer</h2>
         </section>
         <section className={s.photo}>
-          <img className={s.myphoto} src={myPhoto} alt="Volodymyr Ivanov" />
+          <img className={s.myphoto} src={myFoto} alt={contacts.foto_alt} />
         </section>
       </div>
     </header>
