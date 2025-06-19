@@ -27,6 +27,15 @@
     
   }
 
+.fullTitle {
+  margin-bottom: 15px;
+  text-align: start;
+  font-size: 10px;
+}
+
+
+
+
   @media screen and (min-width:$mobile) {
     .title{
       font-size: 12px;
@@ -35,6 +44,12 @@
     .subtitle{
       font-size: 12px;
     }
+
+    .fullTitle {
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+
   }
 
   @media screen and (min-width:$tablet) {
@@ -45,6 +60,12 @@
     .subtitle{
       font-size: 14px;
     }
+
+    .fullTitle {
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+
   }
   @media screen and (min-width:$desktop) {
     .title{
@@ -53,4 +74,11 @@
      .subtitle{
       font-size: 16px;
     }
+
+    .fullTitle {
+    font-size:  16px;
+
+    }
+
+
   }

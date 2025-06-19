@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7860539-dc5f-4d49-91d8-ee9531c4f0d4" name="Changes" comment="added  addr and foto to contacts.js" />
+    <list default="true" id="b7860539-dc5f-4d49-91d8-ee9531c4f0d4" name="Changes" comment="added  addr and foto to contacts.js">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/Projects/Project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/Projects/Project/Project.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/WorkingExperience/WorkingExperience.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/WorkingExperience/WorkingExperience.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Body/WorkingExperience/WorkingExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Body/WorkingExperience/WorkingExperience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/languages.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/languages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/projects-db/personal-projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/projects-db/personal-projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/projects-db/team-projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/projects-db/team-projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/workex.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/db/workex.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/_title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_title.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +59,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Volumes/VIDATA/DOCS/Directions/SoftDev/rsm/src/db",
+    "last_opened_file_path": "/Volumes/VIDATA/DOCS/Directions/SoftDev/rsm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,6 +104,7 @@
       <workItem from="1682680588571" duration="1670000" />
       <workItem from="1750237229776" duration="1229000" />
       <workItem from="1750243021886" duration="827000" />
+      <workItem from="1750366254596" duration="6262000" />
     </task>
     <task id="LOCAL-00001" summary="added  addr and foto to contacts.js">
       <option name="closed" value="true" />

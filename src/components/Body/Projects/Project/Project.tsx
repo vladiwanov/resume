@@ -4,6 +4,7 @@ import Content from 'components/Body/Content';
 
 type Prop = {
   Project: string;
+  linkName: string;
   link: string;
   aboutProject: string;
   usedTechnologies: string[];
@@ -35,6 +36,7 @@ export default function Project({ content }: Props) {
                 target="_blank"
                 rel="noreferrer"
               >
+                {/*{item.linkName}*/}
                 {Object.values(item)[1]}
               </a>
             </div>

@@ -8,12 +8,13 @@ export default function WorkingExperience() {
       <h2 className={s.title}>Work experience:</h2>
       <div className={s.content}>
         <div>
-          <h3 className={s.subtitle}>MoGroup</h3>
-          <p className={s.subtitle}>2017 - 09.2021</p>
-          <p className={s.subtitle}>Project manager</p>
+          <h3 className={s.subtitle}>{workex.jobName}</h3>
+          <p className={s.subtitle}>{workex.wokData}</p>
+          {/*<p className={s.subtitle}>{workex.jobTitle}</p>*/}
         </div>
         <ul className={s.list}>
-          {workex.map((text, i) => (
+            <h3 className={`s.title ${s.fullTitle}`}>{workex.jobFullTitle}</h3>
+          {workex.jobResp.map((text, i) => (
             <li key={i} className={s.item}>
               {text}
             </li>
