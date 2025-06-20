@@ -27,6 +27,7 @@ const personalProjects = [
     aboutProject: 'Backend for working on clients database',
     usedTechnologies: ['Node.js', 'Express', 'Cors', 'Passport', 'Joi'],
     id: '4',
+    linkName: 'IV-Engineering backend',
   },
   {
     Project: 'Retro Project',
