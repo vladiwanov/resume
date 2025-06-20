@@ -4,7 +4,7 @@ import Content from 'components/Body/Content';
 
 type Prop = {
   Project: string;
-  linkName: string;
+  // linkName: string;
   link: string;
   aboutProject: string;
   usedTechnologies: string[];
