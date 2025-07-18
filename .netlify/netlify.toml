@@ -7,7 +7,7 @@ headers = []
 [functions."*"]
 
 [build]
-publish = "/Volumes/VIDATA/DOCS/Directions/SoftDev/cv/build"
+publish = "/Volumes/VIDATA/DOCS/Directions/SoftDev/resume/build"
 publishOrigin = "config"
 commandOrigin = "ui"
 command = "npm run build"

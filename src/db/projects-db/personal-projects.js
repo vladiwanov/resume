@@ -36,13 +36,13 @@ const personalProjects = [
     usedTechnologies: ['React.js', 'SASS', 'Grid'],
     id: '5',
   },
-  {
-    Project: 'Resume Volodymyr Ivanov',
-    link: 'https://vladiwanov.netlify.app/',
-    aboutProject: 'Junior Frontend Developer Resume',
-    usedTechnologies: ['React.js', 'TypeScript', 'SASS', 'Grid'],
-    id: '6',
-  },
+  // {
+  //   Project: 'Resume Volodymyr Ivanov',
+  //   link: 'https://vladiwanov.netlify.app/',
+  //   aboutProject: 'Junior Frontend Developer Resume',
+  //   usedTechnologies: ['React.js', 'TypeScript', 'SASS', 'Grid'],
+  //   id: '6',
+  // },
 ];
 
 export default personalProjects;
